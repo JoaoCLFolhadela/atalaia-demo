@@ -1,0 +1,9 @@
+{
+  "notes": "Instantes da deteção na linha do tempo da simulação, em minutos desde a ignição. O incêndio real é só o pacote de dados; o relógio é o da simulação. O drone avista o fogo pouco depois da ignição e os ETA dos meios contam a partir de droneMin. A deteção convencional por satélite é marcada na mesma linha do tempo como o instante em que o ataque começaria sem o drone.",
+  "droneMin": 10,
+  "satelliteMin": 30,
+  "sources": {
+    "droneMin": "Hipótese do cenário da demo da Penha: o drone avista o fogo 10 min após a ignição. Pressuposto do cenário, não medido.",
+    "satelliteMin": "Hipótese do cenário da demo da Penha: o satélite deteta o fogo 30 min após a ignição. Pressuposto do cenário, não medido; uma passagem real de deteção térmica (MODIS, VIIRS) pode demorar horas."
+  }
+}
